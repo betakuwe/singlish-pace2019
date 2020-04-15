@@ -1,39 +1,37 @@
-body {
-  background-color: powderblue;
+/* The sidebar menu */
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(239, 51, 64);
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-h1 {
-  color: blue;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 300%;
-}
-
-p {
-  color: red;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 160%;
-  padding: 30px;
-  border: 1px solid powderblue;
-  margin: 50px;
-}
-
-#p01 {
-  color: yellow;
-}
-
-p.error {
-  color: green;
-}
-
-a:link, a:visited {
-  background-color: #f44336;
-  color: white;
-  padding: 15px 25px;
-  text-align: center;
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
   text-decoration: none;
-  display: inline-block;
+  font-size: 25 px;
+  color: white;
+  display: block;
 }
 
-a:hover, a:active {
-  background-color: red;
+/* When hover over navigation links, change colour */
+.sidenav a:hover {
+  color: black
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+/* Center images */
+.main figure {
+  text-align: center;
 }
