@@ -60,12 +60,23 @@
 .main table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+  align-content: center;
+  text-align: center;
+  margin: auto;
 }
 .main th, td {
   padding: 3px;
-  text-align: center;
 }
 .main caption {
+  font-style: italic;
+  font-size: small;
+}
+
+.main .center {
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   font-style: italic;
   font-size: small;
 }
